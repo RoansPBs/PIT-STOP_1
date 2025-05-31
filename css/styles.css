@@ -122,7 +122,8 @@ h2{
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
-    gap: 1rem;
+    grid-template-rows: auto;
+    gap: 10px;
     background-color: var(--negro);
     padding: 1rem;
 }
