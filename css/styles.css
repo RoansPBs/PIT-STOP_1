@@ -45,7 +45,7 @@ h2{
 
 .barra {
     background-color: var(--naranja);
-    border-radius: 50px; /* Bordes redondeados */
+    border-radius: 50px;
     padding: 1rem;
     width: 100%;
     overflow: hidden;
@@ -192,12 +192,7 @@ h2{
     font-size: 2rem;
 }
 
-@media(max-width:768px){
-    .contenedor-nosotros{
-        flex-direction: column;
-        text-align: center;
-    }
-}
+
 
 /* formulario */
 .formulario{
@@ -281,11 +276,6 @@ font-size: 1.6rem;
         gap: 1rem;
     }
 
-.navegacion-principal{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
 
 .contenedor-nosotros{
     flex-direction: column;
@@ -306,3 +296,4 @@ font-size: 1.6rem;
     margin-bottom: 1rem;
 }
 }
+
