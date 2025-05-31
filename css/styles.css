@@ -254,7 +254,7 @@ font-size: 1.6rem;
     cursor: pointer;
 }
 
-/* Ajuste a dos columnas para tablets */
+/* Ajuste para tablets */
 
 @media (max-width: 1024px) {
     .grid, .grid_1 {
@@ -273,9 +273,9 @@ font-size: 1.6rem;
     background-position: center;
 }
 }
-/* Ajuste a una columna en telefonos */
+/* Ajuste en telefonos */
 
-@media (max-width:768px){
+@media (min-width:768px){
     .grid, .grid_1 {
         grid-template-columns: 1fr; 
         gap: 1rem;
